@@ -8,14 +8,14 @@ Selepathor is a Chrome extension that helps you easily extract XPath from any el
 
 ## Features
 
->One-click XPath extraction  
->Hover & click highlight boxes  
->Smart scoring system (best & alternative selectors)  
->Selenium code generation for Python & Java  
->Explicit wait & time.sleep support  
->Code copy buttons  
->Code history section  
->Dark mode UI 🌙
+-One-click XPath extraction  
+-Hover & click highlight boxes  
+-Smart scoring system (best & alternative selectors)  
+-Selenium code generation for Python & Java  
+-Explicit wait & time.sleep support  
+-Code copy buttons  
+-Code history section  
+-Dark mode UI 🌙
 
 ---
 
