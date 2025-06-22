@@ -45,7 +45,7 @@ The Selepathor icon will appear in your Chrome toolbar.
 ## Screenshots
 
 ![screenshot1](https://i.imgur.com/jzUKIfr.png)
-
+![screenshot2](https://i.imgur.com/PZbn7Xs.png)
 ---
 
 ## Technologies
