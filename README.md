@@ -46,7 +46,7 @@ The Selepathor icon will appear in your Chrome toolbar.
 
 (https://imgur.com/a/72Uwdr0)
 (https://imgur.com/a/CMfTwHs)
-(https://i.imgur.com/x4Sn2cq.png)
+![XPath Hover](https://i.imgur.com/x4Sn2cq.png)
 
 ---
 
