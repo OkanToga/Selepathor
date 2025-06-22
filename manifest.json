@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "Selepathor",
+  "version": "1.6",
+  "description": "Click any element to get different types of XPath. And Generate these Xpaths into direct selenium codes",
+  "permissions": ["scripting", "storage", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+
+   "action": {
+    "default_popup": "popup.html",
+    "default_title": "Selepathor",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+    }
+  },
+
+
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ],
+
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+      
+    }
+  ]
+}

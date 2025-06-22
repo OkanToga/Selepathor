@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>XPath Finder</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header-title">
+    <img src="icons/selepathor_logo.png" alt="Selepathor Logo" class="logo-image" />
+    <button id="themeToggle" title="Toggle Theme">🌙</button>
+  </div>
+
+  <div class="mode-toggle">
+    <label class="switch">
+      <input type="checkbox" id="toggleMode">
+      <span class="slider round"></span>
+    </label>
+    <span id="modeLabel">OFF</span>
+  </div>
+
+  <hr>
+
+  <h3 class="section-title">XPath</h3>
+  <div id="xpaths"></div>
+
+  <hr>
+
+  <h3 class="section-title">🛠 Selenium Code Generator</h3>
+
+  <div id="code-generator">
+    <label for="language">Language:</label>
+    <select id="language">
+      <option value="python">Python</option>
+      <option value="java">Java</option>
+    </select>
+
+    <label for="action">Action:</label>
+    <select id="action">
+      <option value="click">click()</option>
+      <option value="sendKeys">sendKeys()</option>
+      <option value="getText">getText()</option>
+      <option value="isDisplayed">isDisplayed()</option>
+    </select>
+
+    <div id="textInputWrapper" style="display: none;">
+      <label for="sendKeysText">Text to send:</label>
+      <input type="text" id="sendKeysText" placeholder="Enter text..." />
+    </div>
+
+    <div id="variableNameWrapper">
+      <label for="variableName">Variable name:</label>
+      <input type="text" id="variableName" placeholder="e.g., loginBtn" />
+    </div>
+
+    <div id="waitWrapper" style="display: none;">
+      <label><input type="checkbox" id="useWait"> Add explicit wait</label>
+      <input type="number" id="waitTime" value="10" min="1" max="60"> seconds
+    </div>
+
+    <div id="sleepWrapper">
+      <label><input type="checkbox" id="useSleep"> Add sleep</label>
+      <input type="number" id="sleepTime" value="3" min="1" max="60"> seconds
+    </div>
+
+    <button id="generateCodeBtn">Generate Selenium Code</button>
+
+    <div id="importSection" style="margin-top: 10px; display: none;">
+      <h3 class="section-title">Required Imports</h3>
+      <pre id="importOutput"></pre>
+      <button id="copyImportBtn" class="copy-btn">Copy Imports</button>
+    </div>
+
+    <div id="mainCodeSection" style="margin-top: 10px;">
+      <label><strong><h3 class="section-title">Selenium Code Snippet:</h3></strong></label>
+      <pre id="codeOutput"></pre>
+      <button id="copyCodeBtn" class="copy-btn">Copy Code</button>
+      <span id="copyStatus" style="margin-left: 10px;"></span>
+    </div>
+  </div>
+
+  <hr>
+
+  <details id="historyToggle">
+    <summary class="section-title">Code History</summary>
+    <div id="historySection" style="padding: 10px 0 0 0;"></div>
+  </details>
+
+  <script src="popup.js"></script>
+</body>
+</html>
