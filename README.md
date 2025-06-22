@@ -2,7 +2,7 @@
 
 Selepathor is a Chrome extension that helps you easily extract XPath from any element on any webpage. It also generates **ready-to-use Selenium code** in both **Python** and **Java**, making test automation faster and more efficient.
 
-![Selepathor Banner]((https://imgur.com/a/2wHzrwZ)) <!-- (isteğe bağlı ekran görüntüsü) -->
+![Selepathor Banner](https://i.imgur.com/m4xQXwS.png) <!-- (isteğe bağlı ekran görüntüsü) -->
 
 ---
 
@@ -44,9 +44,9 @@ The Selepathor icon will appear in your Chrome toolbar.
 
 ## Screenshots
 
-(https://imgur.com/a/72Uwdr0)
-(https://imgur.com/a/CMfTwHs)
-![XPath Hover](https://i.imgur.com/x4Sn2cq.png)
+![screenshot3](https://i.imgur.com/ttjrTlQ_d.webp?maxwidth=760&fidelity=grand)
+![screenshot3](https://i.imgur.com/RdFlphN.png)
+![screenshot3](https://i.imgur.com/x4Sn2cq.png)
 
 ---
 
